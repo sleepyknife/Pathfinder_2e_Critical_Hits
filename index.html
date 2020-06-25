@@ -26,42 +26,29 @@
 	</head>
 	
 	<body onload="showRandomNumber();">
+		<p> The number is </p>
         <div id="myNumber"></div>
 		
+		<p id="melee"></p>
+		<p id="range"></p>
+		<p id="spell"></p>
 		<section>
 		
 		</section>
 		
 		<script>
-			var requestURL = "https://raw.githubusercontent.com/sleepyknife/Pathfinder_2e_Critical_Hits/master/Ref/zh-TW.json";
-			var request = new XMLHttpRequest();
-			request.open('GET', requestURL);
-			request.responseType = 'json';
-			request.send();
+			var xmlhttp = new XMLHttpRequest();
+			xmlhttp.onreadystatechange = function() {
+			  if (this.readyState == 4 && this.status == 200) {
+				var myObj = JSON.parse(this.responseText);
+				document.getElementById("melee").innerHTML = myObj.Title;
+				document.getElementById("range").innerHTML = myObj.Title;
+				document.getElementById("range").innerHTML = myObj.Title;
+			  }
+			};
+			xmlhttp.open("GET", "https://raw.githubusercontent.com/sleepyknife/Pathfinder_2e_Critical_Hits/master/Ref/zh-TW.json", true);
+			xmlhttp.send();
 			
-			request.onload = function() 
-			{
-				var get_response = request.response;
-				getEffect(get_response);
-			}
-			
-			
-			function getEffect(jsonObj)
-			{
-				var myArticle = document.createElement('article');
-				var melee_effect_text = document.createElement('h2');
-				var range_effect_text = document.createElement('h2');
-				var spell_effect_text = document.createElement('h2');
-				melee_effect_text.textContent = jsonObj["number"][0]['effect'].melee;
-				range_effect_text.textContent = jsonObj["number"][0]['effect'].range;
-				spell_effect_text.textContent = jsonObj["number"][0]['effect'].spell;
-				
-				myArticle.appendChild(melee_effect_text);
-				myArticle.appendChild(range_effect_text);
-				myArticle.appendChild(spell_effect_text);
-				
-				section.appendChild(myArticle);
-			}
         </script>
 	</body>
 </html>
