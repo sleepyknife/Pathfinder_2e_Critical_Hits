@@ -19,10 +19,11 @@
 			
 			request.onload = function() 
 			{
-				var superHeroes = request.response;
-				populateHeader(superHeroes);
-				showHeroes(superHeroes);
+				var get_response = request.response;
+				getEffect(get_response);
 			}
+			
+			
 			function getEffect(jsonObj)
 			{
 				var myArticle = document.createElement('article');
