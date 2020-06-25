@@ -22,15 +22,15 @@
 				populateHeader(superHeroes);
 				showHeroes(superHeroes);
 			}
-			function getEffect(jsonObj, 2)
+			function getEffect(jsonObj)
 			{
 				var myArticle = document.createElement('article');
 				var melee_effect_text = document.createElement('h2');
 				var range_effect_text = document.createElement('h2');
 				var spell_effect_text = document.createElement('h2');
-				melee_effect_text.textContent = jsonObj["number"][number]['effect'].melee;
-				range_effect_text.textContent = jsonObj["number"][number]['effect'].range;
-				spell_effect_text.textContent = jsonObj["number"][number]['effect'].spell;
+				melee_effect_text.textContent = jsonObj["number"]["1"]['effect'].melee;
+				range_effect_text.textContent = jsonObj["number"]["1"]['effect'].range;
+				spell_effect_text.textContent = jsonObj["number"]["1"]['effect'].spell;
 				
 				myArticle.appendChild(melee_effect_text);
 				myArticle.appendChild(range_effect_text);
