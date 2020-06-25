@@ -14,6 +14,25 @@
 			{
                 document.getElementById("myNumber").innerHTML = rando(1, 7);
             }
+		</script>
+		<style>
+            #myNumber{
+                font-size:100px;
+                text-align:center;
+                margin:50px auto;
+                font-family:Arial, sans-serif;
+            }
+        </style>
+	</head>
+	
+	<body onload="showRandomNumber();">
+        <div id="myNumber"></div>
+		
+		<section>
+		
+		</section>
+		
+		<script>
 			var requestURL = "https://raw.githubusercontent.com/sleepyknife/Pathfinder_2e_Critical_Hits/master/Ref/zh-TW.json";
 			var request = new XMLHttpRequest();
 			request.open('GET', requestURL);
@@ -44,22 +63,5 @@
 				section.appendChild(myArticle);
 			}
         </script>
-		<style>
-            #myNumber{
-                font-size:100px;
-                text-align:center;
-                margin:50px auto;
-                font-family:Arial, sans-serif;
-            }
-        </style>
-	</head>
-	
-	<body onload="showRandomNumber();">
-        <div id="myNumber"></div>
-		
-		<section>
-		
-		</section>
-		
 	</body>
 </html>
