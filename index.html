@@ -44,7 +44,7 @@
 			xmlhttp.onreadystatechange = function() {
 			  if (this.readyState == 4 && this.status == 200) {
 				var myObj = JSON.parse(this.responseText);
-				var random_number = rando(0, 10);
+				var random_number = rando(0, 17);
 				document.getElementById("myNumber").innerHTML = random_number;
 				document.getElementById("Bludgeoning_name").innerHTML = myObj.number[random_number].type.Bludgeoning.name;
 				document.getElementById("Bludgeoning_effect").innerHTML = myObj.number[random_number].type.Bludgeoning.effect;
