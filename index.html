@@ -4,20 +4,25 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 		<title>PathFinder 2E critical Hits Effect</title>
+		<script src="https://randojs.com/1.0.0.js"></script>
+        <script>
+            function showRandomNumber(){
+                document.getElementById("myNumber").innerHTML = rando(5, 10);
+            }
+        </script>
+		<style>
+            #myNumber{
+                font-size:100px;
+                text-align:center;
+                margin:50px auto;
+                font-family:Arial, sans-serif;
+            }
+        </style>
 	</head>
-	<body>
-		<p>Click the button to display a random number between 1 and 100.</p>
+	
+	<body onload="showRandomNumber();">
+        <div id="myNumber"></div>
 
-
-		<button onclick="myFunction()">Try it</button>
-
-		<p id="demo"></p>
-
-		<script>
-		function myFunction() {
-		  var x = document.getElementById("demo")
-		  x.innerHTML = Math.floor((Math.random() * 53) + 1);
-		}
-		</script>
+		
 	</body>
 </html>
