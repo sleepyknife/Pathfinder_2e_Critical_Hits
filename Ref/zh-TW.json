@@ -1,0 +1,68 @@
+{
+	"number":
+	{
+		1: 
+		{
+			"effect":
+			{
+				"melee" :
+				"range" :
+				"spell" :
+			}
+		},
+		2:
+		{
+			"effect":
+			{
+				"melee" :
+				"range" :
+				"spell" :
+			}
+		},
+		3:
+		{
+			"effect":
+			{
+				"melee" :
+				"range" :
+				"spell" :
+			}
+		},
+		4:
+		{
+			"effect":
+			{
+				"melee" :
+				"range" :
+				"spell" :
+			}
+		},
+		5:
+		{
+			"effect":
+			{
+				"melee" :
+				"range" :
+				"spell" :
+			}
+		},
+		6:
+		{
+			"effect":
+			{
+				"melee" :
+				"range" :
+				"spell" :
+			}
+		},
+		7:
+		{
+			"effect":
+			{
+				"melee" :
+				"range" :
+				"spell" :
+			}
+		}
+	}
+}
