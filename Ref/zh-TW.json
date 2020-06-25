@@ -1,5 +1,4 @@
 {
-	"Title" : "yoooo",
 	"number" : 
 	[
 		{
@@ -13,49 +12,49 @@
 		{
 			"effect":
 			{
-				"melee" :	"111",
-				"range" :	"111",
-				"spell" :	"111"
+				"melee" :	"222",
+				"range" :	"222",
+				"spell" :	"222"
 			}
 		},
 		{
 			"effect":
 			{
-				"melee" :	"111",
-				"range" :	"111",
-				"spell" :	"111"
+				"melee" :	"333",
+				"range" :	"333",
+				"spell" :	"333"
 			}
 		},
 		{
 			"effect":
 			{
-				"melee" :	"111",
-				"range" :	"111",
-				"spell" :	"111"
+				"melee" :	"444",
+				"range" :	"444",
+				"spell" :	"444"
 			}
 		},
 		{
 			"effect":
 			{
-				"melee" :	"111",
-				"range" :	"111",
-				"spell" :	"111"
+				"melee" :	"555",
+				"range" :	"555",
+				"spell" :	"555"
 			}
 		},
 		{
 			"effect":
 			{
-				"melee" :	"111",
-				"range" :	"111",
-				"spell" :	"111"
+				"melee" :	"666",
+				"range" :	"666",
+				"spell" :	"666"
 			}
 		},
 		{
 			"effect":
 			{
-				"melee" :	"111",
-				"range" :	"111",
-				"spell" :	"111"
+				"melee" :	"777",
+				"range" :	"777",
+				"spell" :	"777"
 			}
 		}
 	]

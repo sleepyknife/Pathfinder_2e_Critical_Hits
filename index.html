@@ -27,7 +27,7 @@
 	
 	<body onload="showRandomNumber();">
 		<p> The number is </p>
-        <div id="myNumber"></div>
+        <p id="myNumber"></p>
 		
 		<p id="melee"></p>
 		<p id="range"></p>
@@ -41,12 +41,13 @@
 			xmlhttp.onreadystatechange = function() {
 			  if (this.readyState == 4 && this.status == 200) {
 				var myObj = JSON.parse(this.responseText);
-				document.getElementById("melee").innerHTML = myObj.Title;
-				document.getElementById("range").innerHTML = myObj.Title;
-				document.getElementById("range").innerHTML = myObj.Title;
+				var random_number = rando(1, 7);
+				document.getElementById("melee").innerHTML = myObj.number[random_number].effect.melee;
+				document.getElementById("range").innerHTML = myObj.number[random_number].effect.range;
+				document.getElementById("spell").innerHTML = myObj.number[random_number].effect.spell;
 			  }
 			};
-			xmlhttp.open("GET", "https://raw.githubusercontent.com/sleepyknife/Pathfinder_2e_Critical_Hits/master/Ref/zh-TW.json", true);
+			xmlhttp.open("GET", "https://raw.githubusercontent.com/sleepyknife/Pathfinder_2e_Critical_Hits/master/Ref/zh-TW.json");
 			xmlhttp.send();
 			
         </script>
