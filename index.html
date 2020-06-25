@@ -6,9 +6,38 @@
 		<title>PathFinder 2E critical Hits Effect</title>
 		<script src="https://randojs.com/1.0.0.js"></script>
         <script>
-            function showRandomNumber(){
+            function showRandomNumber()
+			{
                 document.getElementById("myNumber").innerHTML = rando(1, 7);
             }
+			var requestURL = "https://raw.githubusercontent.com/sleepyknife/Pathfinder_2e_Critical_Hits/master/Ref/zh-TW.json";
+			var request = new XMLHttpRequest();
+			request.open('GET', requestURL);
+			request.responseType = 'json';
+			request.send();
+			
+			request.onload = function() 
+			{
+				var superHeroes = request.response;
+				populateHeader(superHeroes);
+				showHeroes(superHeroes);
+			}
+			function getEffect(jsonObj, 2)
+			{
+				var myArticle = document.createElement('article');
+				var melee_effect_text = document.createElement('h2');
+				var range_effect_text = document.createElement('h2');
+				var spell_effect_text = document.createElement('h2');
+				melee_effect_text.textContent = jsonObj["number"][number]['effect'].melee;
+				range_effect_text.textContent = jsonObj["number"][number]['effect'].range;
+				spell_effect_text.textContent = jsonObj["number"][number]['effect'].spell;
+				
+				myArticle.appendChild(melee_effect_text);
+				myArticle.appendChild(range_effect_text);
+				myArticle.appendChild(spell_effect_text);
+				
+				section.sppendChild(myArticle);
+			}
         </script>
 		<style>
             #myNumber{
