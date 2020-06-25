@@ -3,9 +3,21 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
-		<title>PathFinder 2E critical Hits</title>
+		<title>PathFinder 2E critical Hits Effect</title>
 	</head>
 	<body>
-		<h1>Critical Hits yooooo</h1>
+		<p>Click the button to display a random number between 1 and 100.</p>
+
+
+		<button onclick="myFunction()">Try it</button>
+
+		<p id="demo"></p>
+
+		<script>
+		function myFunction() {
+		  var x = document.getElementById("demo")
+		  x.innerHTML = Math.floor((Math.random() * 53) + 1);
+		}
+		</script>
 	</body>
 </html>
