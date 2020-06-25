@@ -5,63 +5,63 @@
 		{
 			"effect":
 			{
-				"melee" :
-				"range" :
-				"spell" :
+				"melee" :	"111",
+				"range" :	"111",
+				"spell" :	"111"
 			}
 		},
 		2:
 		{
 			"effect":
 			{
-				"melee" :
-				"range" :
-				"spell" :
+				"melee" :	"111",
+				"range" :	"111",
+				"spell" :	"111"
 			}
 		},
 		3:
 		{
 			"effect":
 			{
-				"melee" :
-				"range" :
-				"spell" :
+				"melee" :	"111",
+				"range" :	"111",
+				"spell" :	"111"
 			}
 		},
 		4:
 		{
 			"effect":
 			{
-				"melee" :
-				"range" :
-				"spell" :
+				"melee" :	"111",
+				"range" :	"111",
+				"spell" :	"111"
 			}
 		},
 		5:
 		{
 			"effect":
 			{
-				"melee" :
-				"range" :
-				"spell" :
+				"melee" :	"111",
+				"range" :	"111",
+				"spell" :	"111"
 			}
 		},
 		6:
 		{
 			"effect":
 			{
-				"melee" :
-				"range" :
-				"spell" :
+				"melee" :	"111",
+				"range" :	"111",
+				"spell" :	"111"
 			}
 		},
 		7:
 		{
 			"effect":
 			{
-				"melee" :
-				"range" :
-				"spell" :
+				"melee" :	"111",
+				"range" :	"111",
+				"spell" :	"111"
 			}
 		}
 	}
