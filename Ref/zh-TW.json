@@ -2,66 +2,178 @@
 	"number" : 
 	[
 		{
-			"effect":
+			"type":
 			{
-				"Bludgeoning"	:	"111",
-				"Piercing"		:	"111",
-				"Slashing"		:	"111",
-				"Other" 		:	"111"
+				"Bludgeoning"	:	
+				{
+					"name"		:	"Name",
+					"effect"	:	"Effect"
+				},
+				"Piercing"		:	
+				{
+					"name"		:	"Name",
+					"effect"	:	"Effect"
+				},
+				"Slashing"		:	
+				{
+					"name"		:	"Name",
+					"effect"	:	"Effect"
+				},
+				"Other" 		:	
+				{
+					"name"		:	"Name",
+					"effect"	:	"Effect"
+				}
 			}
 		},
 		{
-			"effect":
+			"type":
 			{
-				"Bludgeoning"	:	"111",
-				"Piercing"		:	"111",
-				"Slashing"		:	"111",
-				"Other"			:	"111"
+				"Bludgeoning"	:	
+				{
+					"name"		:	"Name",
+					"effect"	:	"Effect"
+				},
+				"Piercing"		:	
+				{
+					"name"		:	"Name",
+					"effect"	:	"Effect"
+				},
+				"Slashing"		:	
+				{
+					"name"		:	"Name",
+					"effect"	:	"Effect"
+				},
+				"Other" 		:	
+				{
+					"name"		:	"Name",
+					"effect"	:	"Effect"
+				}
 			}
 		},
 		{
-			"effect":
+			"type":
 			{
-				"Bludgeoning"	:	"111",
-				"Piercing"		:	"111",
-				"Slashing"		:	"111",
-				"Other" 		:	"111"
+				"Bludgeoning"	:	
+				{
+					"name"		:	"Name",
+					"effect"	:	"Effect"
+				},
+				"Piercing"		:	
+				{
+					"name"		:	"Name",
+					"effect"	:	"Effect"
+				},
+				"Slashing"		:	
+				{
+					"name"		:	"Name",
+					"effect"	:	"Effect"
+				},
+				"Other" 		:	
+				{
+					"name"		:	"Name",
+					"effect"	:	"Effect"
+				}
 			}
 		},
 		{
-			"effect":
+			"type":
 			{
-				"Bludgeoning"	:	"111",
-				"Piercing"		:	"111",
-				"Slashing"		:	"111",
-				"Other" 		:	"111"
+				"Bludgeoning"	:	
+				{
+					"name"		:	"Name",
+					"effect"	:	"Effect"
+				},
+				"Piercing"		:	
+				{
+					"name"		:	"Name",
+					"effect"	:	"Effect"
+				},
+				"Slashing"		:	
+				{
+					"name"		:	"Name",
+					"effect"	:	"Effect"
+				},
+				"Other" 		:	
+				{
+					"name"		:	"Name",
+					"effect"	:	"Effect"
+				}
 			}
 		},
 		{
-			"effect":
+			"type":
 			{
-				"Bludgeoning"	:	"111",
-				"Piercing"		:	"111",
-				"Slashing"		:	"111",
-				"Other" 		:	"111"
+				"Bludgeoning"	:	
+				{
+					"name"		:	"Name",
+					"effect"	:	"Effect"
+				},
+				"Piercing"		:	
+				{
+					"name"		:	"Name",
+					"effect"	:	"Effect"
+				},
+				"Slashing"		:	
+				{
+					"name"		:	"Name",
+					"effect"	:	"Effect"
+				},
+				"Other" 		:	
+				{
+					"name"		:	"Name",
+					"effect"	:	"Effect"
+				}
 			}
 		},
 		{
-			"effect":
+			"type":
 			{
-				"Bludgeoning"	:	"111",
-				"Piercing"		:	"111",
-				"Slashing"		:	"111",
-				"Other" 		:	"111"
+				"Bludgeoning"	:	
+				{
+					"name"		:	"Name",
+					"effect"	:	"Effect"
+				},
+				"Piercing"		:	
+				{
+					"name"		:	"Name",
+					"effect"	:	"Effect"
+				},
+				"Slashing"		:	
+				{
+					"name"		:	"Name",
+					"effect"	:	"Effect"
+				},
+				"Other" 		:	
+				{
+					"name"		:	"Name",
+					"effect"	:	"Effect"
+				}
 			}
 		},
 		{
-			"effect":
+			"type":
 			{
-				"Bludgeoning"	:	"111",
-				"Piercing"		:	"111",
-				"Slashing"		:	"111",
-				"Other" 		:	"111"
+				"Bludgeoning"	:	
+				{
+					"name"		:	"Name",
+					"effect"	:	"Effect"
+				},
+				"Piercing"		:	
+				{
+					"name"		:	"Name",
+					"effect"	:	"Effect"
+				},
+				"Slashing"		:	
+				{
+					"name"		:	"Name",
+					"effect"	:	"Effect"
+				},
+				"Other" 		:	
+				{
+					"name"		:	"Name",
+					"effect"	:	"Effect"
+				}
 			}
 		}
 	]
