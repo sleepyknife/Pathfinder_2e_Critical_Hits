@@ -450,6 +450,232 @@
 					"effect"	:	"若是造成冷凍傷害，造成三倍傷害，並且緩慢(slow)2，持續一輪；其餘造成兩倍傷害。"
 				}
 			}
+		},
+		{
+			"type":
+			{
+				"Bludgeoning"	:	
+				{
+					"name"		:	"看到星星惹(I See Stars)",
+					"effect"	:	"一倍傷害，(Crit Effect) 目標陷入頭暈目眩(dazzled)，直到接受治療。"
+				},
+				"Piercing"		:	
+				{
+					"name"		:	"洞洞(Pinhole)",
+					"effect"	:	"(Crit Effect) 目標受到1點持續流血傷害，直到接受治療。"
+				},
+				"Slashing"		:	
+				{
+					"name"		:	"去除腸衣(Disembowel)",
+					"effect"	:	"三倍傷害。"
+				},
+				"Other" 		:	
+				{
+					"name"		:	"導管(Conduit)",
+					"effect"	:	"目標AC與所有SV-2，對抗你的法術或是炸彈，效果直到目標下一輪結束。"
+				}
+			}
+		},
+		{
+			"type":
+			{
+				"Bludgeoning"	:	
+				{
+					"name"		:	"橫掃拌摔(Earth Rumble)",
+					"effect"	:	"一倍傷害，(Crit Effect) 目標及其相鄰的所有敵人，進行反射(Reflex)豁免，失敗倒地。"
+				},
+				"Piercing"		:	
+				{
+					"name"		:	"脆弱點(Vulnerable Spot)",
+					"effect"	:	"目標陷入措手不及(flat-footed)，直到接受治療。"
+				},
+				"Slashing"		:	
+				{
+					"name"		:	"破盾(Shield Cleave)",
+					"effect"	:	"對目標盾牌造成一倍傷害(正常計算硬度)。"
+				},
+				"Other" 		:	
+				{
+					"name"		:	"野性浪潮(Wild Surge)",
+					"effect"	:	"一倍原本類型傷害+一倍隨機類型傷害(1d4：酸、冰、火、電)。"
+				}
+			}
+		},
+		{
+			"type":
+			{
+				"Bludgeoning"	:	
+				{
+					"name"		:	"金剛腿是吧(Foot Smash)",
+					"effect"	:	"目標陷入措手不及(flat-footed)直到其下一輪結束。"
+				},
+				"Piercing"		:	
+				{
+					"name"		:	"臟器破壞(Organ Scramble)",
+					"effect"	:	"三倍傷害，(Crit Effect) 目標陷入疲乏(fatigued)。"
+				},
+				"Slashing"		:	
+				{
+					"name"		:	"斷翅(Wing Tear)",
+					"effect"	:	"目標失去飛行能力，直到接受治療。"
+				},
+				"Other" 		:	
+				{
+					"name"		:	"能量噴發(Energy Might)",
+					"effect"	:	"若造成酸、冰、火、電、聲音類型傷害，則造成三倍傷害；其餘造成兩倍傷害。"
+				}
+			}
+		},
+		{
+			"type":
+			{
+				"Bludgeoning"	:	
+				{
+					"name"		:	"重擊(Solid Blow)",
+					"effect"	:	"三倍傷害。"
+				},
+				"Piercing"		:	
+				{
+					"name"		:	"頑強傷害(Tenacious Wound)",
+					"effect"	:	"一倍傷害，(Crit Effect) 此傷害無法恢復，需要至少進行一次完整長休。"
+				},
+				"Slashing"		:	
+				{
+					"name"		:	"格擋攻擊(Parry Strike)",
+					"effect"	:	"(Crit Effect) 得到+2 AC；直到你的下一輪結束。"
+				},
+				"Other" 		:	
+				{
+					"name"		:	"變成靈體(Phased)",
+					"effect"	:	"目標變成靈體狀態(incorporeal)，直到你的下一輪結束。怪物手冊p.346。"
+				}
+			}
+		},
+		{
+			"type":
+			{
+				"Bludgeoning"	:	
+				{
+					"name"		:	"橫掃(Roundhouse)",
+					"effect"	:	"(Crit Effect) 進行一次額外的攻擊，鄰近目標的其他敵人。此攻擊使用與原本攻擊的相同調整值。"
+				},
+				"Piercing"		:	
+				{
+					"name"		:	"開放傷口(Ragged Wound)",
+					"effect"	:	"目標得到1d6持續流血傷害。"
+				},
+				"Slashing"		:	
+				{
+					"name"		:	"延遲性切口(Delayed Wound)",
+					"effect"	:	"一倍傷害，(Crit Effect) 在目標兩輪結束後，受到同樣數值的傷害。"
+				},
+				"Other" 		:	
+				{
+					"name"		:	"擊退噴射(Concussive Blast)",
+					"effect"	:	"目標被擊退10 feet，並且倒下。"
+				}
+			}
+		},
+		{
+			"type":
+			{
+				"Bludgeoning"	:	
+				{
+					"name"		:	"誰關燈了(Light Out)",
+					"effect"	:	"(Crit Effect) 目標陷入目盲(Blinded)，直到其下一輪結束。"
+				},
+				"Piercing"		:	
+				{
+					"name"		:	"二頭肌撕裂(Bicep Wound)",
+					"effect"	:	"目標陷入疲乏(enfeebled)1，直到接受治療。"
+				},
+				"Slashing"		:	
+				{
+					"name"		:	"撲朔迷離的一擊(Bewildering Display)",
+					"effect"	:	"(Crit Effect) 目標陷入措手不及(flat-footed)，直到其下一輪結束。"
+				},
+				"Other" 		:	
+				{
+					"name"		:	"咆嘯噴射(Roaring Blast)",
+					"effect"	:	"目標陷入耳聾(deafened)，直到接受治療。"
+				}
+			}
+		},
+		{
+			"type":
+			{
+				"Bludgeoning"	:	
+				{
+					"name"		:	"打碎膝蓋(Cracked Knee)",
+					"effect"	:	"(Crit Effect) 目標陷入笨拙(clumsy)2，移動-5 foot移動懲罰，直到接受治療。"
+				},
+				"Piercing"		:	
+				{
+					"name"		:	"小腿刺刺(Calf Jab)",
+					"effect"	:	"(Crit Effect) 目標陷入笨拙(clumsy)1，移動-10 foot移動懲罰，直到接受治療。"
+				},
+				"Slashing"		:	
+				{
+					"name"		:	"怪異傷口(Ugly Wound)",
+					"effect"	:	"目標進行魅力相關檢定-2，除了威嚇。"
+				},
+				"Other" 		:	
+				{
+					"name"		:	"你看到我ㄌ(Now You See Me...)",
+					"effect"	:	"你變成隱形狀態，直到你的下一輪結束，或是你使用任何攻擊行為。"
+				}
+			}
+		},
+		{
+			"type":
+			{
+				"Bludgeoning"	:	
+				{
+					"name"		:	"氣勢上來了(Momentum)",
+					"effect"	:	"你進行所有攻擊骰+2，直到你的下一輪結束。"
+				},
+				"Piercing"		:	
+				{
+					"name"		:	"刺倒(Blowback)",
+					"effect"	:	"目標倒下。"
+				},
+				"Slashing"		:	
+				{
+					"name"		:	"擒抱攻擊(Tangled)",
+					"effect"	:	"(Crit Effect) 你可以進行擒抱做為免費動作。此擒抱等同於目前攻擊的多攻懲罰，且不會計算後續的攻擊次數。"
+				},
+				"Other" 		:	
+				{
+					"name"		:	"漂亮的顏色(Pretty Color)",
+					"effect"	:	"目標陷入頭暈目眩(dazzled)，直到你的下一輪結束。"
+				}
+			}
+		},
+		{
+			"type":
+			{
+				"Bludgeoning"	:	
+				{
+					"name"		:	"無力化格擋(Feeble Parry)",
+					"effect"	:	"(Crit Effect) 你打落目標正在揮舞的一件武器。(GM決定)"
+				},
+				"Piercing"		:	
+				{
+					"name"		:	"肩膀傷口(Shoulder Wound)",
+					"effect"	:	"(Crit Effect) 目標陷入笨拙(clumsy)，疲乏(enfeebled)2，直到接受治療。"
+				},
+				"Slashing"		:	
+				{
+					"name"		:	"肌腱88(Hamstring)",
+					"effect"	:	"一倍傷害(Crit Effect) 目標倒下，並且陷入笨拙(clumsy)2，直到接受治療。"
+				},
+				"Other" 		:	
+				{
+					"name"		:	"法術限制(Cut off from Magic)",
+					"effect"	:	"一倍傷害，目標1d4輪無法使用魔法物品及施法。"
+				}
+			}
 		}
+		
 	]
 }
