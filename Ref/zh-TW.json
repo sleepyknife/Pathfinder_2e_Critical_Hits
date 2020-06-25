@@ -1125,6 +1125,206 @@
 					"effect"	:	"目標緩慢(slow)1，維持一輪。並且得到毀滅(doom)1。"
 				}
 			}
+		},
+		{
+			"type":
+			{
+				"Bludgeoning"	:	
+				{
+					"name"		:	"腸子破壞(Crushed Intestines)",
+					"effect"	:	"一倍傷害，(Crit Effect) 目標得到重傷(wound)2，並且陷入力竭(enfeebled)2此效果維持直到重傷痊癒。"
+				},
+				"Piercing"		:	
+				{
+					"name"		:	"痛到骨髓(Lodged in the Bone)",
+					"effect"	:	"(Crit Effect) 目標得到1d6持續流血傷害。"
+				},
+				"Slashing"		:	
+				{
+					"name"		:	"脊椎重傷(Severed Spine)",
+					"effect"	:	"(Crit Effect) 目標進行體魄(Fortitude)豁免，失敗被麻痺，直到接受治療。"
+				},
+				"Other" 		:	
+				{
+					"name"		:	"精神破壞(Psychic Overflow)",
+					"effect"	:	"目標得到1d8精神傷害。"
+				}
+			}
+		},
+		{
+			"type":
+			{
+				"Bludgeoning"	:	
+				{
+					"name"		:	"肺爆了(Collapsed Lung)",
+					"effect"	:	"一倍傷害，(Crit Effect) 目標陷入力竭(enfeebled)2，直到重傷痊癒。"
+				},
+				"Piercing"		:	
+				{
+					"name"		:	"傷到神經(Nerve Cluster)",
+					"effect"	:	"一倍傷害，(Crit Effect) 目標陷入震懾(stunned)2。"
+				},
+				"Slashing"		:	
+				{
+					"name"		:	"腹腔打擊(Rupture Aboominal Cavity)",
+					"effect"	:	"三倍傷害，目標陷入疲乏(fatigued)。"
+				},
+				"Other" 		:	
+				{
+					"name"		:	"調換位置(Transposition)",
+					"effect"	:	"若此為法術攻擊，你與目標位置調換。"
+				}
+			}
+		},
+		{
+			"type":
+			{
+				"Bludgeoning"	:	
+				{
+					"name"		:	"壓扁(Crunch)",
+					"effect"	:	"(Crit Effect) 目標陷入虛弱(sickened)3"
+				},
+				"Piercing"		:	
+				{
+					"name"		:	"前臂傷害(Forearm Piercing)",
+					"effect"	:	"(Crit Effect) 目標手持武器掉落。(GM決定)"
+				},
+				"Slashing"		:	
+				{
+					"name"		:	"意外的驚喜(Suprise Opening)",
+					"effect"	:	"(Crit Effect) 你得到一個額外的動作，僅可用來攻擊當前目標。"
+				},
+				"Other" 		:	
+				{
+					"name"		:	"過敏反應(Allergic Reaction)",
+					"effect"	:	"目標得到1d8毒傷害。"
+				}
+			}
+		},
+		{
+			"type":
+			{
+				"Bludgeoning"	:	
+				{
+					"name"		:	"肋骨痛擊(Broken Ribs)",
+					"effect"	:	"一倍傷害，(Crit Effect) 目標陷入緩慢(slow)1，直到接受治療。"
+				},
+				"Piercing"		:	
+				{
+					"name"		:	"脊椎刺擊(Spinal Tap)",
+					"effect"	:	"一倍傷害，(Crit Effect) 目標陷入虛弱(sickened)3。"
+				},
+				"Slashing"		:	
+				{
+					"name"		:	"神經切除(Nerve Slice)",
+					"effect"	:	"(Crit Effect) 目標陷入緩慢(slow)2，持續一輪。"
+				},
+				"Other" 		:	
+				{
+					"name"		:	"力場噴射(Forceful blast)",
+					"effect"	:	"目標得到1d8力場傷害。"
+				}
+			}
+		},
+		{
+			"type":
+			{
+				"Bludgeoning"	:	
+				{
+					"name"		:	"暈眩(Brained)",
+					"effect"	:	"目標陷入震懾(stunned)1。"
+				},
+				"Piercing"		:	
+				{
+					"name"		:	"刺傷腎臟(Kidney Piercing)",
+					"effect"	:	"目標陷入虛弱(sickened)2。"
+				},
+				"Slashing"		:	
+				{
+					"name"		:	"神經切除(Fingertipped)",
+					"effect"	:	"一倍傷害，目標陷入笨拙(clumsy)1並且其中一隻手無法使用，直到接受治療。"
+				},
+				"Other" 		:	
+				{
+					"name"		:	"燒眼睛(Eyeburn)",
+					"effect"	:	"目標陷入目盲(blinded)，直到其下一輪結束。"
+				}
+			}
+		},
+		{
+			"type":
+			{
+				"Bludgeoning"	:	
+				{
+					"name"		:	"頭上轉轉轉敲(Overwhelming Smash)",
+					"effect"	:	"三倍傷害。"
+				},
+				"Piercing"		:	
+				{
+					"name"		:	"刺傷動脈(Nicked an Artery)",
+					"effect"	:	"一倍傷害，(Crit Effect) 造成2d6持續流血傷害。
+				},
+				"Slashing"		:	
+				{
+					"name"		:	"印象深刻的傷痕(Carve your Initials)",
+					"effect"	:	"一倍傷害，目標對於你的攻擊感到無比羞辱，開始只會對你持續攻擊。其每輪結束時，可進行意志SV以結束此效果。"
+				},
+				"Other" 		:	
+				{
+					"name"		:	"分心(Distraction)",
+					"effect"	:	"目標陷入措手不及(flat-footed)，直到其下一輪結束。"
+				}
+			}
+		},
+		{
+			"type":
+			{
+				"Bludgeoning"	:	
+				{
+					"name"		:	"頭被敲爆惹(Caved Skull)",
+					"effect"	:	"三倍傷害。(Crit Effect) 目標進行體魄(Fortitude)，失敗即死。"
+				},
+				"Piercing"		:	
+				{
+					"name"		:	"過度反應(Overreaction)",
+					"effect"	:	"一倍傷害，目標使用反射動作同時會視為移動，並且陷入措手不及(flat-footed)，直到其下一輪結束"
+				},
+				"Slashing"		:	
+				{
+					"name"		:	"就像切紙一樣(Paper Cut)",
+					"effect"	:	"目標所有攻擊-2，直到其下一輪結束。"
+				},
+				"Other" 		:	
+				{
+					"name"		:	"非自然的選擇(Unnatural Selection)",
+					"effect"	:	"針對Aberrations、Celestials、Fiends、Monitors類別目標產生三倍傷害，其餘兩倍傷害。"
+				}
+			}
+		},
+		{
+			"type":
+			{
+				"Bludgeoning"	:	
+				{
+					"name"		:	"耳朵爆惹(Box the Ears)",
+					"effect"	:	"目標陷入耳聾(deafened)，直到接受治療。"
+				},
+				"Piercing"		:	
+				{
+					"name"		:	"精準射擊(Javelin Catcher)",
+					"effect"	:	"若為遠程或是投擲傷害，產生三倍傷害，其餘兩倍傷害。"
+				},
+				"Slashing"		:	
+				{
+					"name"		:	"嘴唇切除(Lip Cut)",
+					"effect"	:	"目標進行需語言相關的法術，需進行DC5的flat check，直到接受治療。"
+				},
+				"Other" 		:	
+				{
+					"name"		:	"大自然的呼喚(Call of the Wild)",
+					"effect"	:	"針對Animals、Beasts、Feys、類別目標產生三倍傷害，其餘兩倍傷害。"
+				}
+			}
 		}
 	]
 }
