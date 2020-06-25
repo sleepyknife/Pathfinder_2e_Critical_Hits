@@ -32,7 +32,8 @@
 			xmlhttp.onreadystatechange = function() {
 			  if (this.readyState == 4 && this.status == 200) {
 				var myObj = JSON.parse(this.responseText);
-				var random_number = rando(1, 7);
+				var random_number = rando(0, 53);
+				document.getElementById("myNumber").innerHTML = random_number;
 				document.getElementById("Bludgeoning").innerHTML = myObj.number[random_number].effect.Bludgeoning;
 				document.getElementById("Piercing").innerHTML = myObj.number[random_number].effect.Piercing;
 				document.getElementById("Slashing").innerHTML = myObj.number[random_number].effect.Slashing;
