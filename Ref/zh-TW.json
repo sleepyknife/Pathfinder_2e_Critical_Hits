@@ -750,7 +750,7 @@
 					"effect"	:	"一倍傷害，目標陷入緩慢(slow)1，直到其下一輪結束。"
 				}
 			}
-		}
+		},
 		{
 			"type":
 			{
@@ -1262,7 +1262,7 @@
 				"Piercing"		:	
 				{
 					"name"		:	"刺傷動脈(Nicked an Artery)",
-					"effect"	:	"一倍傷害，(Crit Effect) 造成2d6持續流血傷害。
+					"effect"	:	"一倍傷害，(Crit Effect) 造成2d6持續流血傷害。"
 				},
 				"Slashing"		:	
 				{
