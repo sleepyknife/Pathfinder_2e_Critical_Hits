@@ -900,6 +900,231 @@
 					"effect"	:	"目標陷入石化狀態，維持10分鐘。"
 				}
 			}
+		},
+		{
+			"type":
+			{
+				"Bludgeoning"	:	
+				{
+					"name"		:	"我在哪裡我是誰(Where am I?)",
+					"effect"	:	"一倍傷害(Crit Effect) 目標陷入震懾(stunned)2。"
+				},
+				"Piercing"		:	
+				{
+					"name"		:	"意外的驚喜(Suprise Opening)",
+					"effect"	:	"(Crit Effect) 你得到一個額外的動作，僅可用來攻擊當前目標。"
+				},
+				"Slashing"		:	
+				{
+					"name"		:	"耳朵不見惹(Missing Ear)",
+					"effect"	:	"一倍傷害，目標進行感知或魅力相關檢定-2，除了威嚇，直到接受治療。"
+				},
+				"Other" 		:	
+				{
+					"name"		:	"心智混亂(Mind Cloud)",
+					"effect"	:	"目標陷入困惑(stupefied)2，直到接受治療。"
+				}
+			}
+		},
+		{
+			"type":
+			{
+				"Bludgeoning"	:	
+				{
+					"name"		:	"脾臟破裂(Ruptured Spleen)",
+					"effect"	:	"一倍傷害(Crit Effect) 目標受到1點持續流血傷害，直到接受【法術】治療。"
+				},
+				"Piercing"		:	
+				{
+					"name"		:	"肌肉傷害(Muscle Severed)",
+					"effect"	:	"一倍傷害(Crit Effect) 目標陷入笨拙(clumsy)3、力竭(enfeebled)3，直到接受治療。"
+				},
+				"Slashing"		:	
+				{
+					"name"		:	"幹 武器飛出去了(Lean into the Blow)",
+					"effect"	:	"三倍傷害，但是武器掉落。"
+				},
+				"Other" 		:	
+				{
+					"name"		:	"快樂骨頭(Funny Bone)",
+					"effect"	:	"目標開始無法控制的大笑，陷入緩慢(slow)1並且無法使用反射動作，效果持續到其下一輪結束。"
+				}
+			}
+		},
+		{
+			"type":
+			{
+				"Bludgeoning"	:	
+				{
+					"name"		:	"骨頭攻擊(Bone Smasher)",
+					"effect"	:	"一倍傷害(Crit Effect) 目標陷入笨拙(clumsy)2並且移動-10foot或笨拙(clumsy)2並且一隻手無法使用(效果自選)，直到接受治療。"
+				},
+				"Piercing"		:	
+				{
+					"name"		:	"肺部穿刺(Punctured Lung)",
+					"effect"	:	"(Crit Effect) 目標陷入窒息(suffocating)，直到接受【法術】治療。核心p.478。"
+				},
+				"Slashing"		:	
+				{
+					"name"		:	"單純的疼痛(Pain and Simple)",
+					"effect"	:	"三倍傷害。"
+				},
+				"Other" 		:	
+				{
+					"name"		:	"催眠控制(Hypnotic Link)",
+					"effect"	:	"若此為法術，造成一倍傷害，並且目標被你控制，直到其下一輪結束。"
+				}
+			}
+		},
+		{
+			"type":
+			{
+				"Bludgeoning"	:	
+				{
+					"name"		:	"氣管破壞(Crushed Trachea)",
+					"effect"	:	"(Crit Effect) 目標陷入窒息(suffocating)，直到接受【法術】治療。核心p.478。"
+				},
+				"Piercing"		:	
+				{
+					"name"		:	"刺到東西了(Pierced Elbow)",
+					"effect"	:	"目標一件物品被你打落。(GM決定)"
+				},
+				"Slashing"		:	
+				{
+					"name"		:	"開放性傷口(Long Gash)",
+					"effect"	:	"一倍傷害(Crit Effect) 目標得到1d4持續流血傷害，此傷口的flat check DC為20。(一般15)"
+				},
+				"Other" 		:	
+				{
+					"name"		:	"衰弱目標(Vulnerability)",
+					"effect"	:	"目標對於產生的傷害類型產生弱點(weakness)5，持續1分鐘。"
+				}
+			}
+		},
+		{
+			"type":
+			{
+				"Bludgeoning"	:	
+				{
+					"name"		:	"失去平衡(Off Balance)",
+					"effect"	:	"一倍傷害，目標使用反射動作同時會視為移動，並且陷入措手不及(flat-footed)，直到其下一輪結束。"
+				},
+				"Piercing"		:	
+				{
+					"name"		:	"骨刺(Chipped Bone)",
+					"effect"	:	"目標陷入笨拙(clumsy)1，直到接受治療。"
+				},
+				"Slashing"		:	
+				{
+					"name"		:	"砍砍砍(Hack and Slash)",
+					"effect"	:	"三倍傷害，目標陷入措手不及(flat-footed)，直到其下一輪結束。"
+				},
+				"Other" 		:	
+				{
+					"name"		:	"縮小(Shrink aftereffect)",
+					"effect"	:	"一倍傷害，同時目標體型縮小，如同shrink的效果，直到其下一輪結束。"
+				}
+			}
+		},
+		{
+			"type":
+			{
+				"Bludgeoning"	:	
+				{
+					"name"		:	"晚安(Nighty Night)",
+					"effect"	:	"一倍傷害，(Crit Effect) 目標失去意識，直到其下一輪結束。"
+				},
+				"Piercing"		:	
+				{
+					"name"		:	"疼痛的戳戳(Painful Poke)",
+					"effect"	:	"目標陷入震懾(stunned)1。"
+				},
+				"Slashing"		:	
+				{
+					"name"		:	"這樣會有傷口喔喔喔(That'll leave a mark)",
+					"effect"	:	"一倍傷害，(Crit Effect) 造成2d6持續流血傷害。"
+				},
+				"Other" 		:	
+				{
+					"name"		:	"毀滅打擊(Devastating Strike)",
+					"effect"	:	"三倍傷害，目標陷入震懾(stunned)1。"
+				}
+			}
+		},
+		{
+			"type":
+			{
+				"Bludgeoning"	:	
+				{
+					"name"		:	"短暫暈眩(Dazing Thud)",
+					"effect"	:	"目標陷入震懾(stunned)1。"
+				},
+				"Piercing"		:	
+				{
+					"name"		:	"臉頰穿刺(Cheek Pierced)",
+					"effect"	:	"目標進行需語言相關的法術，需進行DC5的flat check。"
+				},
+				"Slashing"		:	
+				{
+					"name"		:	"視線傷害(Across the eyes)",
+					"effect"	:	"一倍傷害，(Crit Effect) 目標陷入目盲(blinded)，直到接受治療。"
+				},
+				"Other" 		:	
+				{
+					"name"		:	"變慢(Slowed Down)",
+					"effect"	:	"目標陷入緩慢(slow)2，持續一輪。"
+				}
+			}
+		},
+		{
+			"type":
+			{
+				"Bludgeoning"	:	
+				{
+					"name"		:	"我是誰我在哪(To Your Thinky Bits)",
+					"effect"	:	"目標陷入呆滯(stupefied)2，直到接受治療。"
+				},
+				"Piercing"		:	
+				{
+					"name"		:	"刺穿目標(Clean Through)",
+					"effect"	:	"三倍傷害。"
+				},
+				"Slashing"		:	
+				{
+					"name"		:	"開放傷口(Wide Open)",
+					"effect"	:	"目標陷入措手不及(flat-footed)，直到其下一輪結束。"
+				},
+				"Other" 		:	
+				{
+					"name"		:	"龍龍去死ㄅ(Hoarder's Wrath)",
+					"effect"	:	"對龍產生三倍傷害，其餘兩倍傷害。"
+				}
+			}
+		},
+		{
+			"type":
+			{
+				"Bludgeoning"	:	
+				{
+					"name"		:	"咳咳咳(Clocked!)",
+					"effect"	:	"三倍傷害，目標被擊倒。"
+				},
+				"Piercing"		:	
+				{
+					"name"		:	"爆頭(Head Shot)",
+					"effect"	:	"三倍傷害，(Crit Effect) 目標進行體魄(Fortitude)豁免，失敗即死。"
+				},
+				"Slashing"		:	
+				{
+					"name"		:	"從胸部到股溝(From Chops to Groin)",
+					"effect"	:	"三倍傷害，(Crit Effect) 目標進行體魄(Fortitude)豁免，失敗即死。"
+				},
+				"Other" 		:	
+				{
+					"name"		:	"毀滅(Doomed!)",
+					"effect"	:	"目標緩慢(slow)1，維持一輪。並且得到毀滅(doom)1。"
+				}
+			}
 		}
 	]
 }
