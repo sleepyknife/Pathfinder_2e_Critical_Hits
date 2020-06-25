@@ -6,23 +6,23 @@
 			{
 				"Bludgeoning"	:	
 				{
-					"name"		:	"Name",
-					"effect"	:	"Effect"
+					"name"		:	"震撼腦髓(Skull Crush)",
+					"effect"	:	"(Crit Effect) 目標陷入呆滯(stupefied)3，直到接受治療。"
 				},
 				"Piercing"		:	
 				{
-					"name"		:	"Name",
-					"effect"	:	"Effect"
+					"name"		:	"重傷手臂(Hand Wound)",
+					"effect"	:	"(Crit Effect) 目標陷入笨拙(clumsy)2並且該手無法使用，直到接受治療。"
 				},
 				"Slashing"		:	
 				{
-					"name"		:	"Name",
-					"effect"	:	"Effect"
+					"name"		:	"開放傷口(Broad Swipe)",
+					"effect"	:	"目標得到1d4持續流血傷害。"
 				},
 				"Other" 		:	
 				{
-					"name"		:	"Name",
-					"effect"	:	"Effect"
+					"name"		:	"餘火(Lingering Damage)",
+					"effect"	:	"目標受到1d6持續傷害，類型等同於施法類別。"
 				}
 			}
 		},
@@ -31,23 +31,23 @@
 			{
 				"Bludgeoning"	:	
 				{
-					"name"		:	"Name",
-					"effect"	:	"Effect"
+					"name"		:	"雷霆一擊(Thunder Strike)",
+					"effect"	:	"(Crit Effect) 目標陷入耳聾(deafened)，直到接受治療。"
 				},
 				"Piercing"		:	
 				{
-					"name"		:	"Name",
-					"effect"	:	"Effect"
+					"name"		:	"定牆(Nailed in Place)",
+					"effect"	:	"如同弓箭武器專精效果，目標被穿刺至牆上。(若為近戰武器，須將武器放開)。若本來就已經有此效果，脫離狀態運動檢定DC改為20。"
 				},
 				"Slashing"		:	
 				{
-					"name"		:	"Name",
-					"effect"	:	"Effect"
+					"name"		:	"斬首(Decapitation)",
+					"effect"	:	"三倍傷害。(Crit Effect)目標需進行體魄(Fortitude)豁免，失敗即死。"
 				},
 				"Other" 		:	
 				{
-					"name"		:	"Name",
-					"effect"	:	"Effect"
+					"name"		:	"法術回歸(Returning Spell)",
+					"effect"	:	"若為法術攻擊，該法術格視為未消耗。"
 				}
 			}
 		},
@@ -56,23 +56,23 @@
 			{
 				"Bludgeoning"	:	
 				{
-					"name"		:	"Name",
-					"effect"	:	"Effect"
+					"name"		:	"破盾一擊(Shield Smack)",
+					"effect"	:	"(Crit Effect) 目標需進行反射(Reflex)豁免，失敗所持的盾被擊落。"
 				},
 				"Piercing"		:	
 				{
-					"name"		:	"Name",
-					"effect"	:	"Effect"
+					"name"		:	"穿刺傷害(Penetrating Wound)",
+					"effect"	:	"此傷害忽略目標所有傷害抗性(resistance)。"
 				},
 				"Slashing"		:	
 				{
-					"name"		:	"Name",
-					"effect"	:	"Effect"
+					"name"		:	"肌肉傷害(Muscle Wound)",
+					"effect"	:	"(Crit Effect) 目標陷入力竭(enfeebled)2，直到接受治療。"
 				},
 				"Other" 		:	
 				{
-					"name"		:	"Name",
-					"effect"	:	"Effect"
+					"name"		:	"穿透法術(Intense Strike)",
+					"effect"	:	"此傷害忽略目標所有傷害抗性(resistance)。"
 				}
 			}
 		},
@@ -81,23 +81,23 @@
 			{
 				"Bludgeoning"	:	
 				{
-					"name"		:	"Name",
-					"effect"	:	"Effect"
+					"name"		:	"我的牙齒！(My teef！)",
+					"effect"	:	"當目標進行施法，若此法術需念咒(verbal)，須先進行DC5的純檢定(flat check)，直到接受治療。"
 				},
 				"Piercing"		:	
 				{
-					"name"		:	"Name",
-					"effect"	:	"Effect"
+					"name"		:	"大噴血(Gusher)",
+					"effect"	:	"目標得到1d6持續流血傷害。"
 				},
 				"Slashing"		:	
 				{
-					"name"		:	"Name",
-					"effect"	:	"Effect"
+					"name"		:	"兇斬(Terrible Cut)",
+					"effect"	:	"三倍傷害。"
 				},
 				"Other" 		:	
 				{
-					"name"		:	"Name",
-					"effect"	:	"Effect"
+					"name"		:	"感到噁心(Excruciating)",
+					"effect"	:	"目標陷入虛弱(Sickened)3"
 				}
 			}
 		},
@@ -106,23 +106,23 @@
 			{
 				"Bludgeoning"	:	
 				{
-					"name"		:	"Name",
-					"effect"	:	"Effect"
+					"name"		:	"打斷腿(Broken Leg)",
+					"effect"	:	"(Crit Effect) 目標陸地移動速度-15 foot，直到接受治療。"
 				},
 				"Piercing"		:	
 				{
-					"name"		:	"Name",
-					"effect"	:	"Effect"
+					"name"		:	"震撼一擊(Grazing Hit)",
+					"effect"	:	"原始傷害，(Crit Effect) 目標陷入震懾(stunned)3"
 				},
 				"Slashing"		:	
 				{
-					"name"		:	"Name",
-					"effect"	:	"Effect"
+					"name"		:	"橫掃(Swing Through)",
+					"effect"	:	"(Crit Effect) 進行一次額外的攻擊，鄰近目標的其他敵人。此攻擊使用與原本攻擊的相同調整值。"
 				},
 				"Other" 		:	
 				{
-					"name"		:	"Name",
-					"effect"	:	"Effect"
+					"name"		:	"最大效果(Maximun effect)",
+					"effect"	:	"傷害直接等於最大值，不需丟傷害骰。"
 				}
 			}
 		},
@@ -131,23 +131,23 @@
 			{
 				"Bludgeoning"	:	
 				{
-					"name"		:	"Name",
-					"effect"	:	"Effect"
+					"name"		:	"無法呼吸(Breathless)",
+					"effect"	:	"目標陷入疲乏(fatigued)。"
 				},
 				"Piercing"		:	
 				{
-					"name"		:	"Name",
-					"effect"	:	"Effect"
+					"name"		:	"頭暈目眩(Spun Around)",
+					"effect"	:	"目標陷入措手不及(flat-footed)，直到其下一輪結束。"
 				},
 				"Slashing"		:	
 				{
-					"name"		:	"Name",
-					"effect"	:	"Effect"
+					"name"		:	"斷手(Sliced Hand)",
+					"effect"	:	"一倍傷害，目標陷入力竭(enfeebled)1、笨拙(clumsy)1，並且該手無法使用，直到接受治療。"
 				},
 				"Other" 		:	
 				{
-					"name"		:	"Name",
-					"effect"	:	"Effect"
+					"name"		:	"燃燒(Combustion)",
+					"effect"	:	"若此攻擊傷害類型為火焰，則造成三倍傷害。其餘造成雙倍傷害。"
 				}
 			}
 		},
@@ -156,23 +156,98 @@
 			{
 				"Bludgeoning"	:	
 				{
-					"name"		:	"Name",
-					"effect"	:	"Effect"
+					"name"		:	"擊倒(Crumpling Blow)",
+					"effect"	:	"目標被擊倒(knocked prone)。"
 				},
 				"Piercing"		:	
 				{
-					"name"		:	"Name",
-					"effect"	:	"Effect"
+					"name"		:	"刺穿(Pierced)",
+					"effect"	:	"目標陷入緩慢(Slow)1，直到其下一輪結束。"
 				},
 				"Slashing"		:	
 				{
-					"name"		:	"Name",
-					"effect"	:	"Effect"
+					"name"		:	"割喉(Throat Slash)",
+					"effect"	:	"一倍傷害，(Crit Effect) 目標得到1d8持續流血傷害。目標無法說話、施法、呼吸。直到持續傷害解除。"
 				},
 				"Other" 		:	
 				{
-					"name"		:	"Name",
-					"effect"	:	"Effect"
+					"name"		:	"生命汲取(Life Leech)",
+					"effect"	:	"若此為法術攻擊，目標陷入毀滅(doom)1，並且你恢復1d8 HP。"
+				}
+			}
+		},
+		{
+			"type":
+			{
+				"Bludgeoning"	:	
+				{
+					"name"		:	"傷害擴散(Two for One)",
+					"effect"	:	"(Crit Effect) 目標相鄰的一個目標受到一倍傷害。"
+				},
+				"Piercing"		:	
+				{
+					"name"		:	"穿刺手臂(Pinned Arm)",
+					"effect"	:	"如同弓箭武器專精效果，目標被穿刺至牆上。(若為近戰武器，須將武器放開)。"
+				},
+				"Slashing"		:	
+				{
+					"name"		:	"裝甲破壞(Cut Straps)",
+					"effect"	:	"(Crit Effect) 目標裝甲檢定懲罰值加倍，直到進行修復(DC15)"
+				},
+				"Other" 		:	
+				{
+					"name"		:	"高壓電擊(Electrocuted)",
+					"effect"	:	"若傷害類型為電流，造成雙倍傷害，並且下一輪受到一倍傷害；其餘類型造成雙倍傷害。"
+				}
+			}
+		},
+		{
+			"type":
+			{
+				"Bludgeoning"	:	
+				{
+					"name"		:	"踩腳趾(Crushed Toe)",
+					"effect"	:	"一倍傷害，目標陷入笨拙(clumsy)2，10 foot移動懲罰，直到接受治療。"
+				},
+				"Piercing"		:	
+				{
+					"name"		:	"針灸(Stinger)",
+					"effect"	:	"一倍傷害，目標陷入虛弱(sickened)3。"
+				},
+				"Slashing"		:	
+				{
+					"name"		:	"不能算數惹(Missing Digits)",
+					"effect"	:	"一倍傷害。(Crit Effect) 砍掉目標其中一手1d4根手指，並且陷入笨拙(clumsy)1，直到手指被類似復活術效果恢復。"
+				},
+				"Other" 		:	
+				{
+					"name"		:	"黏黏的(Strange Goo)",
+					"effect"	:	"一倍傷害，目標被束縛(Restrained)，以你的Class DC作為逃離DC。"
+				}
+			}
+		},
+		{
+			"type":
+			{
+				"Bludgeoning"	:	
+				{
+					"name"		:	"踩腳趾(Crushed Toe)",
+					"effect"	:	"一倍傷害，目標陷入笨拙(clumsy)2，10 foot移動懲罰，直到接受治療。"
+				},
+				"Piercing"		:	
+				{
+					"name"		:	"針灸(Stinger)",
+					"effect"	:	"一倍傷害，目標陷入虛弱(sickened)3。"
+				},
+				"Slashing"		:	
+				{
+					"name"		:	"不能算數惹(Missing Digits)",
+					"effect"	:	"一倍傷害。(Crit Effect) 砍掉目標其中一手1d4根手指，並且陷入笨拙(clumsy)1，直到手指被類似復活術效果恢復。"
+				},
+				"Other" 		:	
+				{
+					"name"		:	"黏黏的(Strange Goo)",
+					"effect"	:	"一倍傷害，目標被束縛(Restrained)，以你的Class DC作為逃離DC。"
 				}
 			}
 		}
