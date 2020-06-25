@@ -19,13 +19,17 @@
 		<p> 隨機數字為 </p>
         <p id="myNumber"></p>
 		
-		<b>鈍擊效果：</b> <i id="Bludgeoning"></i>
+		鈍擊攻擊：<i id="Bludgeoning_name"></i>
+		<b id="Bludgeoning_effect"></b> 
 		<br></br>
-		<b>穿刺效果：</b> <i id="Piercing"></i>
+		穿刺攻擊：<i id="Piercing_name"></i>
+		<b id="Piercing_effect"></b> 
 		<br></br>
-		<b>揮砍效果：</b> <i id="Slashing"></i>
+		揮砍攻擊：<i id="Slashing_name"></i>
+		<b id="Slashing_effect"></b> 
 		<br></br>
-		<b>法術效果：</b> <i id="Other"></i>
+		法術攻擊：<i id="Other_name"></i>
+		<b id="Other_effect"></b> 
 
 		
 		<script>
@@ -35,10 +39,14 @@
 				var myObj = JSON.parse(this.responseText);
 				var random_number = rando(0, 53);
 				document.getElementById("myNumber").innerHTML = random_number;
-				document.getElementById("Bludgeoning").innerHTML = myObj.number[random_number].effect.Bludgeoning;
-				document.getElementById("Piercing").innerHTML = myObj.number[random_number].effect.Piercing;
-				document.getElementById("Slashing").innerHTML = myObj.number[random_number].effect.Slashing;
-				document.getElementById("Other").innerHTML = myObj.number[random_number].effect.Other;
+				document.getElementById("Bludgeoning_name").innerHTML = myObj.number[random_number].type.Bludgeoning.name;
+				document.getElementById("Bludgeoning_effect").innerHTML = myObj.number[random_number].type.Bludgeoning.effect;
+				document.getElementById("Piercing_name").innerHTML = myObj.number[random_number].type.Piercing.name;
+				document.getElementById("Piercing_effect").innerHTML = myObj.number[random_number].type.Piercing.effect;
+				document.getElementById("Slashing_name").innerHTML = myObj.number[random_number].type.Slashing.name;
+				document.getElementById("Slashing_effect").innerHTML = myObj.number[random_number].type.Slashing.effect;
+				document.getElementById("Other_name").innerHTML = myObj.number[random_number].type.Other.name;
+				document.getElementById("Other_effect").innerHTML = myObj.number[random_number].type.Other.effect;
 			  }
 			};
 			xmlhttp.open("GET", "https://raw.githubusercontent.com/sleepyknife/Pathfinder_2e_Critical_Hits/master/Ref/zh-TW.json");
