@@ -5,16 +5,6 @@
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 		<title>PathFinder 2E critical Hits Effect</title>
 		<script src="https://randojs.com/1.0.0.js"></script>
-		<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
-        <script>
-			const header = document.querySelector('header');
-			const section = document.querySelector('section');
-
-            function showRandomNumber()
-			{
-                document.getElementById("myNumber").innerHTML = rando(1, 7);
-            }
-		</script>
 		<style>
             #myNumber{
                 font-size:100px;
@@ -25,13 +15,14 @@
         </style>
 	</head>
 	
-	<body onload="showRandomNumber();">
-		<p> The number is </p>
+	<body>
+		<p> 隨機數字為 </p>
         <p id="myNumber"></p>
 		
-		<p id="melee"></p>
-		<p id="range"></p>
-		<p id="spell"></p>
+		<b>鈍擊效果：</b> <i id="Bludgeoning"></i>
+		<b>穿刺效果：</b> <i id="Piercing"></i>
+		<b>揮砍效果：</b> <i id="Slashing"></i>
+		<b>法術效果：</b> <i id="Other"></i>
 		<section>
 		
 		</section>
@@ -42,9 +33,10 @@
 			  if (this.readyState == 4 && this.status == 200) {
 				var myObj = JSON.parse(this.responseText);
 				var random_number = rando(1, 7);
-				document.getElementById("melee").innerHTML = myObj.number[random_number].effect.melee;
-				document.getElementById("range").innerHTML = myObj.number[random_number].effect.range;
-				document.getElementById("spell").innerHTML = myObj.number[random_number].effect.spell;
+				document.getElementById("Bludgeoning").innerHTML = myObj.number[random_number].effect.Bludgeoning;
+				document.getElementById("Piercing").innerHTML = myObj.number[random_number].effect.Piercing;
+				document.getElementById("Slashing").innerHTML = myObj.number[random_number].effect.Slashing;
+				document.getElementById("Other").innerHTML = myObj.number[random_number].effect.Other;
 			  }
 			};
 			xmlhttp.open("GET", "https://raw.githubusercontent.com/sleepyknife/Pathfinder_2e_Critical_Hits/master/Ref/zh-TW.json");

@@ -4,57 +4,64 @@
 		{
 			"effect":
 			{
-				"melee" :	"111",
-				"range" :	"111",
-				"spell" :	"111"
+				"Bludgeoning"	:	"111",
+				"Piercing"		:	"111",
+				"Slashing"		:	"111",
+				"Other" 		:	"111"
 			}
 		},
 		{
 			"effect":
 			{
-				"melee" :	"222",
-				"range" :	"222",
-				"spell" :	"222"
+				"Bludgeoning"	:	"111",
+				"Piercing"		:	"111",
+				"Slashing"		:	"111",
+				"Other"			:	"111"
 			}
 		},
 		{
 			"effect":
 			{
-				"melee" :	"333",
-				"range" :	"333",
-				"spell" :	"333"
+				"Bludgeoning"	:	"111",
+				"Piercing"		:	"111",
+				"Slashing"		:	"111",
+				"Other" 		:	"111"
 			}
 		},
 		{
 			"effect":
 			{
-				"melee" :	"444",
-				"range" :	"444",
-				"spell" :	"444"
+				"Bludgeoning"	:	"111",
+				"Piercing"		:	"111",
+				"Slashing"		:	"111",
+				"Other" 		:	"111"
 			}
 		},
 		{
 			"effect":
 			{
-				"melee" :	"555",
-				"range" :	"555",
-				"spell" :	"555"
+				"Bludgeoning"	:	"111",
+				"Piercing"		:	"111",
+				"Slashing"		:	"111",
+				"Other" 		:	"111"
 			}
 		},
 		{
 			"effect":
 			{
-				"melee" :	"666",
-				"range" :	"666",
-				"spell" :	"666"
+				"Bludgeoning"	:	"111",
+				"Piercing"		:	"111",
+				"Slashing"		:	"111",
+				"Other" 		:	"111"
 			}
 		},
 		{
 			"effect":
 			{
-				"melee" :	"777",
-				"range" :	"777",
-				"spell" :	"777"
+				"Bludgeoning"	:	"111",
+				"Piercing"		:	"111",
+				"Slashing"		:	"111",
+				"Other" 		:	"111"
 			}
 		}
 	]
